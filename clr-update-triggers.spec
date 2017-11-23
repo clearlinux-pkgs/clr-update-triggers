@@ -1,6 +1,6 @@
 Name     : clr-update-triggers
 Version  : 5
-Release  : 10
+Release  : 11
 URL      : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-5.tar.gz
 Source0  : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-5.tar.gz
 Summary  : No detailed summary available
@@ -21,7 +21,7 @@ install -D -m 0755 update-helper.sh %{buildroot}/usr/bin/update-helper
 install -D -m 0755 10-glib-schemas-hook.sh %{buildroot}/usr/libexec/updater/10-glib-schemas-hook.sh
 install -D -m 0755 10-ldconfig-hook.sh %{buildroot}/usr/libexec/updater/10-ldconfig-hook.sh
 install -D -m 0755 10-mandb-hook.sh %{buildroot}/usr/libexec/updater/10-mandb-hook.sh
-install -D -m 0755 10-mandb-hook.sh %{buildroot}/usr/libexec/updater/10-fc-cache-hook.sh
+install -D -m 0755 10-fc-cache-hook.sh %{buildroot}/usr/libexec/updater/10-fc-cache-hook.sh
 install -D -m 0755 10-motd-hook.sh %{buildroot}/usr/libexec/updater/10-motd-hook.sh
 install -D -m 0755 10-python-timestamp-hook.sh %{buildroot}/usr/libexec/updater/10-python-timestamp-hook.sh
 install -D -m 0755 10-tmpfiles-hook.sh %{buildroot}/usr/libexec/updater/10-tmpfiles-hook.sh
