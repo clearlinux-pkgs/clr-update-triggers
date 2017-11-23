@@ -1,8 +1,8 @@
 Name     : clr-update-triggers
-Version  : 4
+Version  : 5
 Release  : 9
-URL      : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-4.tar.gz
-Source0  : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-4.tar.gz
+URL      : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-5.tar.gz
+Source0  : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-5.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : LGPL-2.1
@@ -11,7 +11,7 @@ License  : LGPL-2.1
 No detailed description available
 
 %prep
-%setup -q -n clr-update-triggers-4
+%setup -q -n clr-update-triggers-5
 
 %build
 
@@ -21,6 +21,7 @@ install -D -m 0755 update-helper.sh %{buildroot}/usr/bin/update-helper
 install -D -m 0755 10-glib-schemas-hook.sh %{buildroot}/usr/libexec/updater/10-glib-schemas-hook.sh
 install -D -m 0755 10-ldconfig-hook.sh %{buildroot}/usr/libexec/updater/10-ldconfig-hook.sh
 install -D -m 0755 10-mandb-hook.sh %{buildroot}/usr/libexec/updater/10-mandb-hook.sh
+install -D -m 0755 10-mandb-hook.sh %{buildroot}/usr/libexec/updater/10-fc-cache-hook.sh
 install -D -m 0755 10-motd-hook.sh %{buildroot}/usr/libexec/updater/10-motd-hook.sh
 install -D -m 0755 10-python-timestamp-hook.sh %{buildroot}/usr/libexec/updater/10-python-timestamp-hook.sh
 install -D -m 0755 10-tmpfiles-hook.sh %{buildroot}/usr/libexec/updater/10-tmpfiles-hook.sh
@@ -33,6 +34,7 @@ install -D -m 0755 update-trigger.sh %{buildroot}/usr/libexec/updater/update-tri
 /usr/libexec/updater/10-glib-schemas-hook.sh
 /usr/libexec/updater/10-ldconfig-hook.sh
 /usr/libexec/updater/10-mandb-hook.sh
+/usr/libexec/updater/10-fc-cache-hook.sh
 /usr/libexec/updater/10-motd-hook.sh
 /usr/libexec/updater/10-python-timestamp-hook.sh
 /usr/libexec/updater/10-tmpfiles-hook.sh
