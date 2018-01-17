@@ -1,8 +1,8 @@
 Name     : clr-update-triggers
-Version  : 6
-Release  : 12
-URL      : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-6.tar.gz
-Source0  : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-6.tar.gz
+Version  : 7
+Release  : 13
+URL      : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-7.tar.gz
+Source0  : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-7.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : LGPL-2.1
