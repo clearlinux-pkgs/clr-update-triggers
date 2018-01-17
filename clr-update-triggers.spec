@@ -11,7 +11,7 @@ License  : LGPL-2.1
 No detailed description available
 
 %prep
-%setup -q -n clr-update-triggers-6
+%setup -q -n clr-update-triggers-%{version}
 
 %build
 
