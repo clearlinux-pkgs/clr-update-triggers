@@ -1,8 +1,8 @@
 Name     : clr-update-triggers
-Version  : 7
-Release  : 15
-URL      : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-7.tar.gz
-Source0  : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-7.tar.gz
+Version  : 8
+Release  : 16
+URL      : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-8.tar.gz
+Source0  : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-8.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : LGPL-2.1
