@@ -1,6 +1,6 @@
 Name     : clr-update-triggers
 Version  : 8
-Release  : 17
+Release  : 18
 URL      : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-8.tar.gz
 Source0  : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-8.tar.gz
 Summary  : No detailed summary available
