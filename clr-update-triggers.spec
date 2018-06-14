@@ -1,6 +1,6 @@
 Name     : clr-update-triggers
 Version  : 9
-Release  : 19
+Release  : 20
 URL      : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-9.tar.gz
 Source0  : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-9.tar.gz
 Summary  : No detailed summary available
