@@ -1,6 +1,6 @@
 Name     : clr-update-triggers
 Version  : 15
-Release  : 30
+Release  : 31
 URL      : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-15.tar.gz
 Source0  : http://localhost/cgit/projects/clr-update-triggers/snapshot/clr-update-triggers-15.tar.gz
 Summary  : No detailed summary available
